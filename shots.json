@@ -1,22 +1,5 @@
 [
-  {
-    "file": "1-checklist.jpg",
-    "description": "Trophy checklist overview with filters, grade progress metrics, and trophy cards",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "2-detail.jpg",
-    "description": "Detailed trophy walkthrough modal with step-by-step tactics, missables note, and verified sources",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "3-roadmap.jpg",
-    "description": "Four-stage Platinum Roadmap outlining story, heists, world exploration, and 100% completion",
-    "viewport": { "width": 1280, "height": 800 }
-  },
-  {
-    "file": "4-spoiler.jpg",
-    "description": "Active spoiler shielding protecting narrative trophies with blur filters and quick toggle",
-    "viewport": { "width": 1280, "height": 800 }
-  }
+  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
 ]

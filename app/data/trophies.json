@@ -1,1062 +1,392 @@
 {
-  "game": "Grand Theft Auto VI",
-  "platform": "PlayStation 5",
-  "total_trophies": 55,
-  "breakdown": {
-    "platinum": 1,
-    "gold": 2,
-    "silver": 6,
-    "bronze": 46
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "the official 55 trophies, 2026-11-18",
+ "trophies": [
+  {
+   "id": 1,
+   "name": "Vice Got a Price!",
+   "description": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "guide": "Earn the other 54 trophies."
   },
-  "edition": "PlayStation 5 Official Trophy Roster & Field Guide",
-  "last_updated": "2026-11-19",
-  "trophies": [
-    {
-      "id": 1,
-      "name": "Vice Got a Price!",
-      "description": "Congratulations! You're a Leonida Legend.",
-      "grade": "platinum",
-      "kind": "completion",
-      "roadmap_stage": 4,
-      "target_count": 55,
-      "missable": false,
-      "missable_note": "Unlocked automatically once all other 54 PlayStation 5 trophies (2 Gold, 6 Silver, 46 Bronze) have been synchronized.",
-      "guide": "The ultimate badge of criminal mastery across the state of Leonida. To earn this prestigious Platinum trophy, you must complete the entire dual-protagonist storyline of Lucia and Jason, conquer all major and minor heists, discover every nook and cranny from Vice City's neon beachfront to the murky waters of the Grassrivers and Port Gellhorn, locate all collectibles, and attain the grueling 100% Game Completion milestone. None of the trophies are permanently missable if you maintain manual backup saves before major branch points in Chapter 4.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Stage 1: Complete the main story campaign (Chapters 1 through 4 + Finale), learning Lucia and Jason's unique partner mechanics.",
-        "Stage 2: Execute high-stakes heists, bank vault burglaries, armored truck takedowns, and survive 4-star escapes with your partner.",
-        "Stage 3: Complete all 8 Stranger & Freaks mission strands, 100 WAiNK spots, 3 Card sets, 18 meditation points, and 250 stunt jumps.",
-        "Stage 4: Achieve 100% Game Completion ('A Long Road'), buy all 8 garage properties, and finish the 50 miscellaneous challenges."
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Just Like Paradise",
-      "description": "Complete Gone Fishing.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission. Unlocks upon completing the prologue tutorial sequence.",
-      "guide": "This trophy unlocks after finishing 'Gone Fishing', the atmospheric prologue mission that introduces the swampy wetlands and bayous outside Vice City. The mission familiarizes you with basic stealth, weapon handling, switching between Lucia and Jason, and vehicle maneuvering through shallow waters. Follow the waypoint markers to secure the drop and rendezvous with your local contact.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Follow the tutorial prompts to navigate the skiff through the mangrove waterways.",
-        "Eliminate the hostile poachers quietly using silenced sidearms or takedowns.",
-        "Recover the stash container and escape the arriving local county deputies.",
-        "Deliver the contraband to the rendezvous cabin to conclude the mission."
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Paradise Lost",
-      "description": "Complete Chapter 1.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission trophy.",
-      "guide": "Conclude Chapter 1 of the main campaign. Chapter 1 establishes the dynamic duo's initial petty robberies, introduces the gritty motel safehouse system in southern Leonida, and leads up to their first run-in with organized crime syndicates. Simply focus on yellow campaign markers on your radar until the chapter recap cinematic plays.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Establish your first functional safehouse hideout with your partner.",
-        "Coordinate small-scale convenience store and liquor store robberies to build working capital.",
-        "Survive the high-speed highway pursuit back into Vice City limits.",
-        "Watch the concluding Chapter 1 cutscene as the overarching syndicate threat is unveiled."
-      ]
-    },
-    {
-      "id": 4,
-      "name": "T**s Ass Drug Money",
-      "description": "Complete Chapter 2.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission trophy.",
-      "guide": "Awarded upon completing all core narrative operations in Chapter 2. This chapter plunges Lucia and Jason deep into the hedonistic nightclub scene, cartel smuggling corridors, and luxury strip clubs of Vice City. You will forge ties with key brokers, hijack luxury shipments, and set up your money laundering framework.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Infiltrate the VIP lounge at the Malibu Club to acquire cartel shipment manifests.",
-        "Intercept the offshore speedboat shipment off the coast of Ocean Beach.",
-        "Defend your stash house against rival hit squads using tactical partner commands.",
-        "Complete the chapter finale meeting at Starfish Island."
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Vice City, Baby!",
-      "description": "Complete Chapter 3.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission trophy.",
-      "guide": "Awarded automatically upon finishing Chapter 3. During this act, the scope of operations expands across greater Leonida, unlocking high-tier military hardware, helicopter flights, and multi-layered heist planning boards. The tension between Lucia and Jason reaches a boiling point as federal heat intensifies.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Acquire heavy weaponry and breaching charges from corrupt dockside contractors.",
-        "Execute the coordinated dual-incursion into the downtown financial district.",
-        "Lose the tactical FIB surveillance helicopter using underground metro tunnels.",
-        "Regroup at the Port Gellhorn safehouse to trigger the chapter transition."
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Top Of The World, Ma",
-      "description": "Complete Chapter 4.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission trophy.",
-      "guide": "Complete the climactic fourth chapter of the storyline. Chapter 4 features the highest-stakes criminal enterprises in Leonida history, taking you from luxury penthouse suites to fortified offshore compounds. Ensure you keep a dedicated manual save slot here before commencing the finale.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Perform the penthouse infiltration during a thunderstorm to mask audio cues.",
-        "Extract crucial blackmail drives containing federal and cartel conspirator records.",
-        "Fight your way through the Port Gellhorn shipyard ambush alongside Jason/Lucia.",
-        "Secure the heavy armored getaway transport to close out Chapter 4."
-      ]
-    },
-    {
-      "id": 7,
-      "name": "You Gotta Know When to Get Off",
-      "description": "Complete the final mission.",
-      "grade": "gold",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable narrative finale trophy. Unlocks upon completion of the campaign climax and end credits.",
-      "guide": "The golden crowning achievement of the main storyline. Successfully finish the grand finale mission of Grand Theft Auto VI. Regardless of specific narrative dialogue decisions made during the climax, reaching the final credit sequence will award this Gold trophy and open up unrestricted post-game free-roam for 100% completion clean-up.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Prepare maximum body armor, heavy assault rifles, RPGs, and health consumables.",
-        "Execute the multi-phase assault on the antagonist's fortified stronghold.",
-        "Survive the epic dual-character vehicle chase along the Overseas Highway.",
-        "Resolve the final standoff between Lucia and Jason to view the ending and credits."
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Trust",
-      "description": "Complete Breakfast Run.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable early-game story mission.",
-      "guide": "Earned by completing 'Breakfast Run', an iconic early story mission featuring Lucia and Jason robbing a roadside diner and escaping the ensuing police response. This mission showcases the dynamic trust mechanic where covering your partner yields instant combat bonuses and tactical cues.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Drive to the roadside diner in Ambrosia and synchronize your masks with your partner.",
-        "Control the patrons and cashier while your partner empties the register and safe.",
-        "Suppress incoming police patrol cruisers with accurate fire while your partner starts the getaway car.",
-        "Evade the 2-star wanted radius using back alleys and farm tracks."
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Break the Bank",
-      "description": "Complete The Cartel Heist.",
-      "grade": "bronze",
-      "kind": "heist",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story heist mission.",
-      "guide": "Complete 'The Cartel Heist', one of the major centerpiece heist operations in Leonida. You must complete the necessary prep work (reconnaissance, acquiring thermal lances, procuring an armored escape van) before executing the raid on the cartel's primary laundering bank.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Complete the three prerequisite heist setup missions (Thermite, Disguises, Getaway Route).",
-        "Breach the subterranean vault doors and secure the cartel gold bullion and bearer bonds.",
-        "Repel heavy cartel enforcers armed with automatic shotguns inside the lobby.",
-        "Escape via the flood drainage canals beneath the city to deliver the loot."
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Family Matters",
-      "description": "Complete Child's Play.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission.",
-      "guide": "Awarded upon finishing the narrative mission 'Child's Play'. This mission deals with personal backstory ties and resolving family entanglements in the suburbs of Leonida, requiring tactical recon and a clean extraction.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Drive to the suburban neighborhood marker and locate the target residence.",
-        "Engage in non-lethal or silenced takedowns to bypass private security guards.",
-        "Extract the VIP safely without alerting neighboring residents.",
-        "Deliver the VIP to the protected safehouse across the county line."
-      ]
-    },
-    {
-      "id": 11,
-      "name": "DWNFALL",
-      "description": "Complete Headliners.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission.",
-      "guide": "Awarded upon completing the high-energy story mission 'Headliners', taking place around an ultra-exclusive music festival and VIP concert venue on Vice Beach. Involves backstage stealth, audio-visual sabotage, and a chaotic crowd escape.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Infiltrate the festival grounds using forged backstage passes.",
-        "Sabotage the main stage pyrotechnics and lighting rig to create an extraction distraction.",
-        "Confront the music executive target in the VIP tour bus.",
-        "Flee through the festival crowd on dirt bikes along the shoreline."
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Hi-Jacked",
-      "description": "Complete VCIA Takedown.",
-      "grade": "bronze",
-      "kind": "heist",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable campaign heist mission.",
-      "guide": "Complete the daring mid-campaign heist 'VCIA Takedown'. In this mission, the crew intercepts a high-security international cargo flight touching down at Vice City International Airport, hacking the tarmac radar towers and seizing government black-budget bonds.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Breach the perimeter fencing of Vice City International Airport (VCIA).",
-        "Hack the tarmac guidance transponder before the transport aircraft lands.",
-        "Board the cargo bay, disable security personnel, and load the cargo containers into flatbed trucks.",
-        "Smash through the airport runway gates and lose the airport police pursuit."
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Snow Storm",
-      "description": "Complete Operation Savage Glory.",
-      "grade": "bronze",
-      "kind": "story",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Unmissable story mission.",
-      "guide": "Earned upon completing 'Operation Savage Glory', an intense tactical operation set during an unexpected tropical hurricane storm. Visibility is drastically reduced, requiring thermal optics, defensive positioning, and rapid vehicle navigation against elite mercenary units.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Navigate torrential rain and high winds to reach the offshore oil rig / shipping barge.",
-        "Utilize assault rifles equipped with night/thermal optics to clear enemy positions.",
-        "Disable the emergency distress beacons to prevent reinforcements.",
-        "Evacuate via combat boat while braving turbulent swells."
-      ]
-    },
-    {
-      "id": 14,
-      "name": "A Long Road",
-      "description": "Attain 100% Completion.",
-      "grade": "gold",
-      "kind": "completion",
-      "roadmap_stage": 4,
-      "target_count": 100,
-      "missable": false,
-      "missable_note": "Not missable. Can be completed in post-game free-roam. Keep track via the in-game Pause Menu > Stats > Checklist.",
-      "guide": "The pinnacle Gold trophy requiring 100% Game Completion across all required statistical categories. Like GTA V, 100% does not require every single microscopic activity, but demands: All Story Missions, all 8 Stranger Strands, 20 Race victories, all 42 Shooting Range gold medals, 250 Stunt Jumps, 100 WAiNK locations, 3 complete Card sets, all 18 Meditation spots, 10 Scooter Bros vehicle registrations, buying all 8 Garages, and completing 50 Challenges.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Finish all primary story campaign and heist missions.",
-        "Complete all 8 Strangers and Freaks questlines across Leonida.",
-        "Achieve Gold medals in all 42 Ammu-Nation Shooting Range drills.",
-        "Find all 100 WAiNK spots and complete 3 full collectible card decks.",
-        "Win 20 street and offroad races and register 10 vehicles in Scooter Bros.",
-        "Purchase all 8 garage properties across Leonida to unlock the final completion percentage."
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Cunning Stunts",
-      "description": "Complete 250 Stunts.",
-      "grade": "silver",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 250,
-      "missable": false,
-      "missable_note": "Not missable. Can be performed at any time across the open world in free-roam.",
-      "guide": "Perform 250 unique stunt maneuvers across the state of Leonida. Stunts encompass official Stunt Jumps (ramps, unfinished highway flyovers, construction dirt mounds), barrel rolls off natural terrain in the Grassrivers, boat wave launches off coastal shoals, and two-wheel vehicle balance glides. Use a tuned sports motorcycle (like the Pegassi Bati or Sanchez) for high aerial control.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Acquire a fast, agile sports motorcycle or upgraded sports car with Franklin-style air control.",
-        "Explore highway overpasses, dock loading ramps, and coastal boardwalk launch pads.",
-        "Ensure you land cleanly on all wheels without wiping out to register the stunt credit.",
-        "Monitor your counter in Pause Menu > Stats > Vehicles > Stunts Completed."
-      ]
-    },
-    {
-      "id": 16,
-      "name": "Master of None",
-      "description": "Try each type of activity once.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 9,
-      "missable": false,
-      "missable_note": "Not missable. All 9 activity types remain accessible across the map throughout the entire game.",
-      "guide": "Participate in all 9 leisure and pastime activity categories across Leonida at least once. You do not need to win or achieve high scores—simply initiate and finish one session of each: 1. Ammu-Nation Shooting Range, 2. Bowling (Kolt & Associates), 3. Top Fun Drone Racing, 4. Street / Offroad Racing, 5. Sport Fishing, 6. Retro Arcade Games, 7. Yoga / Meditation, 8. Hunting with Bret, 9. Tennis / Strip Club / Golf minigame.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Open your world map and filter icons by 'Activities & Pastimes'.",
-        "Visit each distinct activity icon across Vice City and surrounding counties.",
-        "Complete at least one full round or attempt of each of the 9 activity types.",
-        "Trophy pops immediately upon concluding your ninth distinct activity type."
-      ]
-    },
-    {
-      "id": 17,
-      "name": "The Shootist",
-      "description": "Earn a gold medal in all Shooting Range challenges.",
-      "grade": "silver",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 42,
-      "missable": false,
-      "missable_note": "Not missable. Can be replayed indefinitely at Ammu-Nation ranges.",
-      "guide": "Secure a Gold Medal score in all 42 Shooting Range challenges distributed across Ammu-Nation gun clubs in Leonida. The 42 drills span Handguns, Submachine Guns, Assault Rifles, Shotguns, Light Machine Guns, and Sniper Rifles. Maximize your character's Shooting skill to minimize recoil and weapon sway, and aim strictly for moving headshot targets to score multiplier bonuses.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Max out your protagonist's Shooting attribute to reduce reload times and weapon kick.",
-        "Visit the downtown Vice City Ammu-Nation and suburban gun ranges.",
-        "Maintain a 100% accuracy multiplier by landing continuous bullseye and headshot hits.",
-        "Re-attempt any silver or bronze finishes until all 42 challenges glow gold."
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Top Fun",
-      "description": "Win a Top Fun Drone Race at every location.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 14,
-      "missable": false,
-      "missable_note": "Not missable. Can be completed at any time in open-world free-roam.",
-      "guide": "Win a first-place finish in all 14 Top Fun FPV Drone Race circuits scattered across Leonida. These fast-paced aerial obstacle courses require maneuvering lightweight FPV racing drones through illuminated neon checkpoint rings inside shopping malls, abandoned theme parks, neon alleys, and mangrove swamps.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Locate the 14 Top Fun drone launch stations marked with a quadcopter icon on the map.",
-        "Use gentle analog stick adjustments to avoid clipping ring edges and losing momentum.",
-        "Utilize the turbo boost feathering technique on straightaways.",
-        "Finish in 1st place across all 14 tracks to claim the trophy."
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Earn Cash, Not Kudos",
-      "description": "Win 20 different races.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 20,
-      "missable": false,
-      "missable_note": "Not missable. Races remain active and replayable throughout the game.",
-      "guide": "Emerge victorious in 20 distinct sanctioned and illegal street, watercraft, and offroad races across Leonida. Races are organized by car meet clubs, Everglades swamp-boat organizers, and coastal speed clubs. You must win 20 unique race events rather than grinding the same race 20 times.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Bring a fully customized and performance-tuned vehicle suitable for the race class.",
-        "Participate in South Beach street races, Grassrivers airboat courses, and Leonida rally stages.",
-        "Slipstream behind opponents and apply nitrous on long straights.",
-        "Check your race log in the in-game phone to confirm 20 unique victories."
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Baited My Tackle",
-      "description": "Beat Cal in a fishing challenge.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Not missable. Cal's fishing pier remains available in the Grassrivers region.",
-      "guide": "Challenge and defeat legendary Leonida angler Cal at his personal fishing hotspot in the wetlands. Once you unlock the sport fishing rod, visit Cal's Bait & Tackle shack. Accept his wager, select the optimal bait for the current weather/time of day, and reel in a trophy-class largemouth bass or tarpon exceeding Cal's haul.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Acquire the Pro Angler Carbon Rod and specialized live lures from the bait shop.",
-        "Meet Cal at his fishing pier in the western Grassrivers basin.",
-        "Cast your line into deep water ripples and match the analog tension reel prompts.",
-        "Land a fish whose weighed score beats Cal's contest threshold."
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Stick Fiddler",
-      "description": "Complete an arcade game.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Not missable. Arcades are located in shopping plazas and bowling alleys.",
-      "guide": "Beat the final boss or clear all stages of any retro cabinet arcade game found inside entertainment complexes, neon arcades, or bowling alleys across Vice City. Classic retro titles like 'Degenatron', 'QUB3D 2', or 'Space Monkey DX' can be played. Pick whichever cabinet suits your playstyle and reach the victory credits screen.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Head to the Starfish Island arcade or Kolt & Associates entertainment center.",
-        "Approach an arcade cabinet (e.g. Space Monkey DX or QUB3D 2) and insert tokens.",
-        "Learn the pattern of stage hazards and master dodge/bomb mechanics.",
-        "Clear the final stage or achieve the target high-score survival milestone."
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Road to Rehabilitation",
-      "description": "Complete the final mission for Andy.",
-      "grade": "bronze",
-      "kind": "strangers",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Andy's stranger strand icon appears as 'A?' on the map after Chapter 2.",
-      "guide": "Complete the storyline arc of eccentric counselor and life guru Andy Moon. His questline consists of 3 humorous and bizarre missions involving confronting former wellness cultists, stealing proprietary holistic elixirs, and protecting his outdoor retreat center in the northern hills.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Meet Andy at his wellness retreat in northern Leonida to trigger his quest chain.",
-        "Complete his errand involving sabotaging a rival lifestyle corporation's convoy.",
-        "Fend off aggressive debt collectors during his climactic meditation ceremony.",
-        "Deliver Andy to the bus terminal to conclude his final mission."
-      ]
-    },
-    {
-      "id": 23,
-      "name": "This Was No Boat Accident",
-      "description": "Complete the final mission for Kenton.",
-      "grade": "bronze",
-      "kind": "strangers",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Kenton's strand icon ('K?') unlocks in the marina district after Chapter 2.",
-      "guide": "Complete all missions for Kenton, an obsessive marine salvage diver and conspiracy theorist obsessed with offshore wrecks and apex predators. His multi-stage strand requires scuba diving deep into shipwrecks, retrieving lost black boxes, and surviving a legendary hammerhead shark encounter.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Speak with Kenton at the Vice City Marina dock slips.",
-        "Equip scuba gear and dive into sunken wreckage sites to recover submerged cargo containers.",
-        "Dodge hostile aquatic wildlife using the speargun.",
-        "Deliver the final maritime artifact back to Kenton's research vessel."
-      ]
-    },
-    {
-      "id": 24,
-      "name": "The Lone Rider",
-      "description": "Complete the final mission for Billy.",
-      "grade": "bronze",
-      "kind": "strangers",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Billy's strand icon ('B?') unlocks around outlaw biker hangouts in rural Leonida.",
-      "guide": "Finish the stranger mission arc for Billy, an aging outlaw biker clinging to the old ways of the Leonida chopper clubs. Assist Billy with reclaiming stolen vintage motorbikes, settling scores with a rival tech-bro syndicate, and staging one last highway convoy raid.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Find Billy outside the rustic roadside saloon in rural Leonida.",
-        "Track down his stolen custom chopper using GPS tracking coordinates.",
-        "Assault the chop shop where rival gang members are stripping vintage parts.",
-        "Escort Billy's crew along Route 10 while fighting off pursuers."
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Strangers & Freaks",
-      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-      "grade": "silver",
-      "kind": "strangers",
-      "roadmap_stage": 3,
-      "target_count": 8,
-      "missable": false,
-      "missable_note": "Not missable. There are more than 12 stranger strands available in Leonida; complete any 8 full questlines.",
-      "guide": "Complete 8 full Stranger & Freaks mission strands across Leonida. Individual strands include Andy (Road to Rehabilitation), Kenton (This Was No Boat Accident), Billy (The Lone Rider), Randy (Supply & Demand), Tyrone (Spin On This!), Bret (Fair Game), and others. Each strand contains between 2 to 5 sequential missions denoted by a '?' on your map.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Look for white question-mark '?' icons indicating new stranger contacts.",
-        "Return to contacts as follow-up missions unlock via text message or map updates.",
-        "Ensure you complete the final mission of each strand until the character's story concludes.",
-        "Reach 8 fully completed stranger strands to unlock this Silver trophy."
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Supply & Demand",
-      "description": "Complete the final mission for Randy.",
-      "grade": "bronze",
-      "kind": "strangers",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Randy's strand ('R?') appears in the industrial warehouse district.",
-      "guide": "Finish the illicit distribution questline for Randy, a shrewd black-market import/export broker. Across his missions, you will hijack pharmaceutical supplies, intercept aerial airdrops over the Florida Keys, and outmaneuver federal customs enforcement agents.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Initiate contact with Randy at his dockside export facility.",
-        "Track and intercept an incoming smuggler plane's maritime supply drop.",
-        "Eliminate rival hijackers attempting to steal Randy's warehouse crates.",
-        "Complete the final distribution delivery run across town."
-      ]
-    },
-    {
-      "id": 27,
-      "name": "Spin On This!",
-      "description": "Complete the final mission for Tyrone.",
-      "grade": "bronze",
-      "kind": "strangers",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Tyrone's strand ('T?') unlocks in the neon strip / car meet circuit.",
-      "guide": "Complete all missions for Tyrone, an adrenaline-fueled drift racer and stunt promoter. Tyrone tasks you with executing high-speed drift battles through downtown multi-story parking structures, outrunning police interceptors while livestreaming, and performing a signature stadium roof leap.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Meet Tyrone at the subterranean downtown drift meetup.",
-        "Complete the timed drift challenge maintaining continuous drift multipliers.",
-        "Broadcast a live stunt run while jumping between skyscraper rooftop platforms.",
-        "Conclude Tyrone's final victory cinematic to unlock the trophy."
-      ]
-    },
-    {
-      "id": 28,
-      "name": "Positive Mental Attitude",
-      "description": "Meditate at every spot across Leonida.",
-      "grade": "bronze",
-      "kind": "exploration",
-      "roadmap_stage": 3,
-      "target_count": 18,
-      "missable": false,
-      "missable_note": "Not missable. All 18 meditation mats/vistas can be visited at any time.",
-      "guide": "Discover and meditate at all 18 scenic meditation spots distributed across Leonida. These locations feature peaceful yoga mats or scenic overlook prompts at serene spots: secluded ocean cliffs, mountain sunrise peaks, quiet mangrove islets, and tranquil botanical gardens. Approach the prompt and hold the interact button to complete a full breathing cycle.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Look for lotus flower icons and scenic vista overlooks on the world map.",
-        "Approach the meditation mat or cliff edge and press the interact prompt.",
-        "Complete the calming analog stick breathing rhythm exercise for 30 seconds.",
-        "Visit all 18 locations (6 in Vice City, 6 in County/Swamps, 6 in Northern Coast)."
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Fair Game",
-      "description": "Hunt a unique animal for Bret.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Bret's hunting lodge is located in the Grassrivers wetlands.",
-      "guide": "Meet Bret, the seasoned wetlands big game hunter, and track down one of Leonida's legendary unique animals. Targets include the legendary Albino Alligator, the Ghost Panther of the scrublands, or the giant Swamp Boar. Use scent cover, crouch in tall grass, inspect animal clues, and use a high-powered rifle to secure a clean harvest.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Accept Bret's unique animal contract at his hunting lodge.",
-        "Travel to the designated yellow search zone in the deep swamp.",
-        "Track animal tracks, broken brush, and carcass clues in Eagle Eye / Hunter vision.",
-        "Harvest the legendary animal with a fatal heart or head shot, then deliver the pelt to Bret."
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Don't Touch My Deck",
-      "description": "Complete 3 Collectible Card sets.",
-      "grade": "silver",
-      "kind": "collectibles",
-      "roadmap_stage": 3,
-      "target_count": 3,
-      "missable": false,
-      "missable_note": "Not missable. Card collectibles persist in the world and are never destroyed.",
-      "guide": "Collect all cards belonging to at least 3 complete Collectible Card sets. Throughout Leonida, players can find trading cards hidden in shops, bus stops, dive bars, motel nightstands, and abandoned cabins. Completing 3 sets (e.g. Vice Legends, Cryptids of Leonida, and Vintage Muscle) requires collecting approximately 30-36 cards total.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Check convenience store counters, diner booths, and motel lobbies for glowing card pick-ups.",
-        "Focus on the 3 easiest card sets: 'Vice Nostalgia', 'Outlaw Pioneers', and 'Apex Predators'.",
-        "Use your in-game phone browser collector forum to view hints and sector maps.",
-        "Collect the final card of your third complete set to pop the Silver trophy."
-      ]
-    },
-    {
-      "id": 31,
-      "name": "You WAiNKer!",
-      "description": "WAiNK It at 100 locations.",
-      "grade": "silver",
-      "kind": "collectibles",
-      "roadmap_stage": 3,
-      "target_count": 100,
-      "missable": false,
-      "missable_note": "Not missable. WAiNK QR codes and AR mural hotspots are permanent world fixtures.",
-      "guide": "Engage with the WAiNK social AR network at 100 distinct locations across Leonida. WAiNK is Leonida's satirical augmented-reality social app where players scan street art, funny billboards, quirky tourist attractions, and hidden neon tags using their in-game smartphone camera.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Open your smartphone and launch the WAiNK camera app.",
-        "Point the camera reticle at designated graffiti murals, neon statues, and bizarre landmarks.",
-        "Wait for the AR scan ring to fill green and confirm the upload.",
-        "Accumulate 100 unique uploads across all districts of Leonida."
-      ]
-    },
-    {
-      "id": 32,
-      "name": "One Last Thing",
-      "description": "Complete 50 Challenges.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 4,
-      "target_count": 50,
-      "missable": false,
-      "missable_note": "Not missable. Challenges are tracked in the Game Progress menu and can be done anytime.",
-      "guide": "Complete 50 in-game Challenges across the various challenge categories: Combat (headshots, drive-by kills, stealth takedowns), Driving (near misses, top speed maintenance, reverse driving), Survival (wanted level evasion, animal escapes), and Economy (burglary profits, casino wins).",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Navigate to Pause Menu > Challenges to view ongoing tier objectives.",
-        "Knock out low-hanging fruit: 25 near misses at high speed, 10 stealth takedowns, 5 dive-by kills.",
-        "Progress through weapons challenges while doing combat and gang missions.",
-        "Reach milestone 50 to unlock this bronze trophy."
-      ]
-    },
-    {
-      "id": 33,
-      "name": "Hot Together",
-      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-      "grade": "bronze",
-      "kind": "combat",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Can be done during free-roam whenever Lucia and Jason are traveling together.",
-      "guide": "Attain a 4-Star Wanted Level while traveling alongside your partner in the same vehicle, then completely lose the police pursuit without either character dying or being arrested. At 4 stars, SWAT tactical vans and police choppers with snipers deploy. Use pay 'n' spray respray shops, underground subway tunnels, or dense swamp forestry to break line-of-sight.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Team up in free-roam and commandeer a durable 4-door vehicle or SUV.",
-        "Cause mayhem near the downtown precinct until your Wanted Level hits 4 stars.",
-        "Have your partner shoot out chasing cruiser tires and the tail rotor of police choppers.",
-        "Speed into an underground tunnel, storm drain, or remote swamp grove and remain hidden until stars dissipate."
-      ]
-    },
-    {
-      "id": 34,
-      "name": "Retail Therapy",
-      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-      "grade": "bronze",
-      "kind": "heist",
-      "roadmap_stage": 2,
-      "target_count": 3,
-      "missable": false,
-      "missable_note": "Must maintain a continuous Wanted Level throughout all 3 consecutive robberies.",
-      "guide": "Execute a rapid robbery spree targeting 3 convenience stores, liquor stores, or pharmacies consecutively with your partner, maintaining an active Wanted Level from the first robbery through the third. If your wanted stars flash and disappear between stores, the streak resets.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Identify 3 shops located closely along a single commercial boulevard in Vice City.",
-        "Enter the first shop with your partner, aim your weapon at the clerk, and collect the cash bag.",
-        "Sprint to your getaway vehicle while police arrive (at least 1-2 stars). Do not let stars drop!",
-        "Drive immediately to the second shop, rob it, and speed to the third shop to finish the robbery triad."
-      ]
-    },
-    {
-      "id": 35,
-      "name": "Whip It Good",
-      "description": "Discover 100 vehicles.",
-      "grade": "bronze",
-      "kind": "exploration",
-      "roadmap_stage": 3,
-      "target_count": 100,
-      "missable": false,
-      "missable_note": "Not missable. Over 180 vehicles exist in the game.",
-      "guide": "Enter and drive 100 distinct vehicle models across Leonida. This includes luxury supercars, muscle cars, sedans, pickups, commercial delivery vans, motorcycles, scooters, speedboats, airboats, jet skis, and helicopters. A notification pop-up confirms each newly discovered vehicle model added to your database.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Make a habit of entering every newly encountered car parked on streets or in parking lots.",
-        "Visit high-end districts (Starfish Island, Ocean Drive) for exotics and rural zones for farm/utility trucks.",
-        "Test drive watercraft at marinas and airboats in the Grassrivers basin.",
-        "Track your discovered vehicle tally in Pause Menu > Stats > Vehicles > Discovered."
-      ]
-    },
-    {
-      "id": 36,
-      "name": "Gunslinger",
-      "description": "Take down 5 enemies in a single use of Combat Focus.",
-      "grade": "bronze",
-      "kind": "combat",
-      "roadmap_stage": 2,
-      "target_count": 5,
-      "missable": false,
-      "missable_note": "Can be done in story missions or against gang hideouts.",
-      "guide": "Eliminate 5 hostiles during a single continuous activation of the Combat Focus ability. Fill your Focus meter by scoring headshots and executing high-speed driving dodges. When facing a clustered group of 5+ gang members or law enforcement officers, trigger Focus (press both analog sticks L3+R3) and rapidly snap headshots with a high-capacity pistol or assault rifle before the bar depletes.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Upgrade your Combat Focus duration attribute via gun range drills and combat challenges.",
-        "Locate a densely packed enemy cluster at an illegal gang warehouse or military outpost.",
-        "Activate Combat Focus (L3 + R3) and systematically aim for headshots.",
-        "Score 5 confirmed kills before the focus bar runs dry."
-      ]
-    },
-    {
-      "id": 37,
-      "name": "Catch Me If You Can",
-      "description": "Make an unscheduled departure at VCIA.",
-      "grade": "bronze",
-      "kind": "misc",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Can be done at Vice City International Airport at any time.",
-      "guide": "Perform an unauthorized, high-speed aerial getaway from the tarmac of Vice City International Airport (VCIA). Steal a corporate private jet or stunt plane parked near the private hangars while dodging the immediate 3-star airport trespassing response, and take off cleanly into the clouds.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Breach the security gate or ramp-jump your car over the perimeter fence into VCIA.",
-        "Sprint to a parked corporate jet or light twin-engine aircraft on the tarmac.",
-        "Board the aircraft, taxi onto the active runway, and throttle to full takeoff thrust.",
-        "Retract landing gear and soar away from airport airspace until the trophy unlocks."
-      ]
-    },
-    {
-      "id": 38,
-      "name": "Challenging Tank",
-      "description": "Kinda hot in these Rhinos.",
-      "grade": "bronze",
-      "kind": "combat",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Military bases and 5-star military responses feature Rhino tanks.",
-      "guide": "Steal or commandeer a Rhino main battle tank and survive the military heat, or destroy a hostile Rhino tank during a 5-star confrontation. The easiest method is infiltrating Fort Zancudo / the Leonida National Guard Base or hijacking a tank during high-tier wanted response using explosive sticky charges and EMP devices.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Locate the Leonida National Guard military staging depot in the western county.",
-        "Parachute or jump an armored vehicle into the vehicle depot yard.",
-        "Quickly hijack the Rhino tank and fire the main cannon to establish control.",
-        "Survive inside the armored beast while enduring heavy anti-armor fire."
-      ]
-    },
-    {
-      "id": 39,
-      "name": "Sneakthief",
-      "description": "Rob a jewelry store without being detected.",
-      "grade": "bronze",
-      "kind": "heist",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Can be attempted in free-roam at luxury jewelry boutiques in downtown Vice City.",
-      "guide": "Perform a completely stealthy burglary of a luxury jewelry store without triggering security alarms or alerting the police until you have safely left the premises. Requires cutting the external power/alarm junction box at the rear alley, using sleep gas through ventilation or stealth takedowns on the night guard, and cracking the glass display cases quietly.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Scout a luxury jeweler in the Downtown or Rodeo district after closing hours.",
-        "Access the rooftop or back alley junction box to temporarily disable silent alarms.",
-        "Subdue the security guard quietly with a chokehold or tranquilizer.",
-        "Smash the display cases, bag the diamonds, and exit into your vehicle undetected."
-      ]
-    },
-    {
-      "id": 40,
-      "name": "Maximum Withdrawal",
-      "description": "Rob 5 Bank Vaults and escape.",
-      "grade": "silver",
-      "kind": "heist",
-      "roadmap_stage": 2,
-      "target_count": 5,
-      "missable": false,
-      "missable_note": "There are multiple regional bank branches in Leonida that can be cased and hit in free-roam.",
-      "guide": "Successfully breach, loot, and escape with the contents of 5 major bank vaults across the state of Leonida. This includes story heists as well as open-world bank heists at regional branches (Fleeca, Bank of Vice City, Tartan Trust). You must use thermal drills or plasma cutters on the heavy vault doors and lose the heavy police response upon exiting.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Procure heavy drilling equipment or thermite charges from your criminal contacts.",
-        "Hit the 5 major bank branch locations across Vice City, Port Gellhorn, and Ambrosia.",
-        "Drill the reinforced vault doors while your partner holds off security forces.",
-        "Bag the bundles of cash and gold bullion, then escape the high-tier pursuit."
-      ]
-    },
-    {
-      "id": 41,
-      "name": "A Classic Blitz Play",
-      "description": "Rob an Armored Truck and escape.",
-      "grade": "bronze",
-      "kind": "heist",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Armored trucks appear randomly as dynamic blips on the world mini-map.",
-      "guide": "Execute a classic GTA-style armored security truck robbery. Intercept a Gruppe Sechs armored van in transit, blow the rear reinforced doors off using sticky bombs or a shotgun blast to the lock pins, grab the dropped cash cases, and successfully escape the 2-to-3-star police response.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Watch for blue/cyan armored truck blips driving through banking and commercial districts.",
-        "Box the truck in using a heavy vehicle or shoot out its tires.",
-        "Throw a sticky bomb directly onto the rear doors and detonate it.",
-        "Collect the spilled cash bags and lose the pursuing squad cars."
-      ]
-    },
-    {
-      "id": 42,
-      "name": "The Goodtime State",
-      "description": "Explore all of Leonida.",
-      "grade": "bronze",
-      "kind": "exploration",
-      "roadmap_stage": 3,
-      "target_count": 52,
-      "missable": false,
-      "missable_note": "Fog of war covers the map initially. Can be uncovered anytime via plane or boat.",
-      "guide": "Clear the fog of war across all 52 geographic sectors of the state of Leonida. The map features the sprawling metropolis of Vice City, northern hill counties, the Grassrivers wetlands, Port Gellhorn, and the southern archipelago keys. Procuring a fast twin-engine plane or helicopter makes sweeping the outer maritime boundaries and remote islands quick and seamless.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Acquire an aircraft (e.g. Maverick helicopter or Mallard prop plane) from VCIA.",
-        "Fly systematic grid lines over clouded areas of the world map.",
-        "Ensure you uncover the outermost southern reefs, eastern barrier islands, and western swamps.",
-        "Trophy pops once all 52 district names register as discovered in your stats."
-      ]
-    },
-    {
-      "id": 43,
-      "name": "Pest Control",
-      "description": "Rob an Illegal Operation belonging to each gang.",
-      "grade": "bronze",
-      "kind": "combat",
-      "roadmap_stage": 2,
-      "target_count": 9,
-      "missable": false,
-      "missable_note": "All 9 gang rackets can be raided repeatedly or during world exploration.",
-      "guide": "Infiltrate and dismantle an illegal business or racket belonging to all 9 rival gangs operating across Leonida. The gangs include the Vice City Cartel, Haitian Posse, Street Thugs, Biker Syndicate, Dixie Mafia, Swamp Moonshiners, Russian Smugglers, Triad Syndicate, and Gellhorn Boys. Clear out the armed guards and loot the racket's safe.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Identify gang territory markers identified with red skull or dollar icons on the map.",
-        "Assault each racket's stronghold (grow-ops, counterfeit printshops, chop shops, moonshine stills).",
-        "Wipe out the resident gang enforcers defending the property.",
-        "Crack the operation's safe and seize the gang's dirty cash reserves across all 9 factions."
-      ]
-    },
-    {
-      "id": 44,
-      "name": "In The Beginning…",
-      "description": "Enjoy a cocktail with a view on Ocean Beach.",
-      "grade": "bronze",
-      "kind": "misc",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Can be enjoyed anytime at Ocean Beach rooftop or beachside lounge bars.",
-      "guide": "Take in the quintessential Vice City atmosphere by ordering a signature tropical cocktail at an open-air oceanfront terrace bar along Ocean Beach at sunset. Walk up to the bar counter, select a specialty cocktail, and let your character lean against the terrace railing overlooking the neon-lit coastline.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Travel to Ocean Drive in South Beach during evening or sunset hours.",
-        "Enter an art-deco boutique hotel rooftop lounge overlooking the ocean.",
-        "Approach the bartender and order a signature Vice Mojito or Sunset Spritz.",
-        "Enjoy the cocktail while taking in the oceanfront panoramic view."
-      ]
-    },
-    {
-      "id": 45,
-      "name": "Capital Offense",
-      "description": "Smash your way out of a vehicle showroom in classic style.",
-      "grade": "bronze",
-      "kind": "misc",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Can be done in story or at luxury car dealerships across Vice City.",
-      "guide": "Pay homage to classic Grand Theft Auto heritage by stealing a high-end sports car directly from inside a luxury vehicle showroom and crashing straight through the front plate-glass display window onto the street outside.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Locate the luxury exotic car dealership in downtown Vice City.",
-        "Walk inside the showroom floor and break into the showcase supercar on the pedestal.",
-        "Start the engine, floor the accelerator, and crash through the glass facade.",
-        "Speed away onto the boulevard as the glass shatters and alarms blare."
-      ]
-    },
-    {
-      "id": 46,
-      "name": "Let’s Go Bowling",
-      "description": "Follow-through at the Kolt & Associates' bowling alley.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Kolt & Associates bowling alley is marked with a bowling pin icon on the map.",
-      "guide": "A cheeky nod to Roman Bellic. Visit the Kolt & Associates bowling entertainment center, rent a lane, and bowl a full 10-frame game. Score at least one Strike or Spare by perfecting your analog backswing and follow-through curve.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Head to the Kolt & Associates recreation center in midtown Vice City.",
-        "Pay the lane fee and select your bowling ball weight.",
-        "Line up your character slightly off-center and pull back the right analog stick smoothly.",
-        "Push forward with a slight curve spin to roll a strike or clean spare."
-      ]
-    },
-    {
-      "id": 47,
-      "name": "Personal Best",
-      "description": "A partnership with mass appeal.",
-      "grade": "bronze",
-      "kind": "misc",
-      "roadmap_stage": 1,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Triggered by engaging in social media video clipping during partner antics.",
-      "guide": "Capture and upload a viral criminal or stunt moment featuring Lucia and Jason to Leonida's social media feed that hits the viral threshold. During high-speed pursuits or synchronized heist actions, initiate the in-game clip capture replay mode and publish it to the in-game social network.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Engage in an outrageous stunt jump or intense shootout alongside your partner.",
-        "Open your in-game smartphone camera or access the Instant Replay editor.",
-        "Add music, stickers, or satirical tags and upload the reel to the social feed.",
-        "Watch the view count tick past the viral threshold to pop the trophy."
-      ]
-    },
-    {
-      "id": 48,
-      "name": "Actions Speak Louder",
-      "description": "Choices made (for better or worse).",
-      "grade": "bronze",
-      "kind": "misc",
-      "roadmap_stage": 1,
-      "target_count": 500,
-      "missable": false,
-      "missable_note": "Accumulates naturally across the entire game through 500 interactive player choices.",
-      "guide": "Make 500 dynamic interactive choices throughout your journey across Leonida. GTA VI features a continuous dynamic interaction system: greeting or antagonizing pedestrians, choosing aggressive vs. diplomatic dialogue options with your partner, accepting or declining side propositions, sparing or executing surrendered enemies, and choosing heist approaches. The counter tracks all 500 choices seamlessly.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Regularly engage pedestrians with contextual conversation prompts (D-pad right/left).",
-        "Make dialogue choices during Lucia and Jason's in-car conversations.",
-        "Interact with random world strangers asking for assistance or challenges.",
-        "The trophy unlocks once your cumulative choice counter hits 500."
-      ]
-    },
-    {
-      "id": 49,
-      "name": "Bad Luck, I Guess",
-      "description": "Second time's the charm.",
-      "grade": "bronze",
-      "kind": "misc",
-      "roadmap_stage": 2,
-      "target_count": 2,
-      "missable": false,
-      "missable_note": "Unlocked by successfully retrying a failed activity or mission checkpoint.",
-      "guide": "Fail a challenging objective, mission checkpoint, or minigame challenge and immediately retry and succeed on your second attempt. Alternatively earned by surviving a fatal vehicular collision or near-death arrest encounter through a last-stand revival mechanic.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Engage in any repeatable challenge, street race, or mission checkpoint.",
-        "Intentionally fail or suffer a mission fail / crash on attempt one.",
-        "Select 'Quick Restart' or immediately replay the challenge from the prompt.",
-        "Achieve victory on this second try to claim the trophy."
-      ]
-    },
-    {
-      "id": 50,
-      "name": "The Truth Is Out There",
-      "description": "What the hell just happened?",
-      "grade": "bronze",
-      "kind": "exploration",
-      "roadmap_stage": 3,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Secret Easter egg exploration encounter located in the remote Everglades/swamps at night.",
-      "guide": "Investigate and witness a supernatural mystery encounter in the secluded swamps or offshore keys of Leonida late at night (between 02:00 and 04:00 AM). Phenomena include the mysterious swamp ghost light, an unidentified submerged object (USO) ping off the coast, or an eerie extraterrestrial broadcast over your radio.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Travel to the northern wetland swamp clearing or the deep offshore reefs between 2:00 AM and 4:00 AM.",
-        "Tune your radio to the static frequency or follow strange auditory hums.",
-        "Approach the glowing anomaly or atmospheric phenomena.",
-        "Witness the bizarre event firsthand to unlock this bronze easter egg trophy."
-      ]
-    },
-    {
-      "id": 51,
-      "name": "Ten Pin",
-      "description": "Bowl 'em over with a melee drive-by.",
-      "grade": "bronze",
-      "kind": "combat",
-      "roadmap_stage": 2,
-      "target_count": 1,
-      "missable": false,
-      "missable_note": "Can be executed on any motorcycle or scooter using a baseball bat or crowbar.",
-      "guide": "Equip a two-handed blunt melee weapon (such as a baseball bat, nightstick, or golf club) while riding a motorcycle or scooter, ride alongside an enemy or hostile NPC at high speed, and strike them with a drive-by melee swing that violently knocks them over like a bowling pin.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Acquire a motorcycle (like the Pegassi Ruffian or Faggio scooter) and a baseball bat.",
-        "While riding, select the melee weapon in your weapon wheel.",
-        "Hold the melee strike button to wind up your swing on either the left or right side.",
-        "Pass closely by a pedestrian or enemy and release to send them tumbling."
-      ]
-    },
-    {
-      "id": 52,
-      "name": "Dime on the Dollar",
-      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-      "grade": "bronze",
-      "kind": "economy",
-      "roadmap_stage": 2,
-      "target_count": 250000,
-      "missable": false,
-      "missable_note": "Laundering contacts unlock after Chapter 2 story progression.",
-      "guide": "Clean and launder a cumulative total of $250,000 in marked dye-pack bills obtained from bank vaults, armored trucks, and high-tier jewelry heists. Stolen dirty cash must be brought to underground laundering contacts (nightclub owners, car washes, pawn shops) who exchange marked currency for clean spendable cash at a percentage cut.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Accumulate marked cash stacks from robberies, armored truck raids, and vault heists.",
-        "Visit designated laundering fronts (strip clubs, pawn shops, car washes).",
-        "Deposit the marked money with your contact and wait for the washing cycle to complete.",
-        "Accumulate $250,000 in clean payout earnings to trigger the trophy."
-      ]
-    },
-    {
-      "id": 53,
-      "name": "Treat Yo Self",
-      "description": "Spend $100,000 across all shops.",
-      "grade": "bronze",
-      "kind": "economy",
-      "roadmap_stage": 4,
-      "target_count": 100000,
-      "missable": false,
-      "missable_note": "Accumulates naturally across clothing boutiques, weapon customizers, and vehicle mod shops.",
-      "guide": "Spend a cumulative sum of $100,000 across commercial storefronts in Leonida. You will easily surpass this amount while buying top-tier armor, high-end weaponry, vehicle performance upgrades at auto customs, luxury outfits at designer boutiques, haircuts, and safehouse cosmetic furnishings.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Visit Los Santos / Vice City Customs to purchase engine, turbo, and armor upgrades for your cars.",
-        "Buy high-end sniper rifles, rocket launchers, and full ammunition stocks at Ammu-Nation.",
-        "Purchase luxury clothing and suits in the Rodeo shopping district.",
-        "Hit the $100,000 expenditure mark to pop the trophy."
-      ]
-    },
-    {
-      "id": 54,
-      "name": "Little Boxes",
-      "description": "Purchase all garage properties.",
-      "grade": "bronze",
-      "kind": "economy",
-      "roadmap_stage": 4,
-      "target_count": 8,
-      "missable": false,
-      "missable_note": "Garage properties become available for purchase through the Dynasty 8 Real Estate app.",
-      "guide": "Acquire all 8 purchasable vehicle garage properties located across the state of Leonida. Garages allow you to store your customized car collections, motorcycles, and exotic vehicles across different districts: Ocean Beach, Downtown Vice City, Little Haiti, Port Gellhorn, Ambrosia, and the northern rural outskirts.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Amass sufficient capital through story heists and bank robberies.",
-        "Open your in-game smartphone browser and navigate to Dynasty 8 Real Estate.",
-        "Locate the 8 purchasable garage properties marked with garage icons on the map.",
-        "Purchase all 8 properties to secure total vehicle storage across Leonida."
-      ]
-    },
-    {
-      "id": 55,
-      "name": "On the Spot",
-      "description": "Register 10 vehicles to the Scooter Bros app.",
-      "grade": "bronze",
-      "kind": "activities",
-      "roadmap_stage": 3,
-      "target_count": 10,
-      "missable": false,
-      "missable_note": "Scooter Bros is an in-game app accessible from your phone.",
-      "guide": "Register 10 distinct motorbikes, mopeds, or scooters into the popular satirical Scooter Bros vehicle sharing and tracking app on your smartphone. Find scooters (Faggio, Pizza Boy, Street Moped) and motorbikes across the city, hop on, open the app, and select 'Register Vehicle to Fleet' to add it to your recognized roster.",
-      "sources": "PlayStation official PS5 trophy list & Exophase (name, description, grade); PSNProfiles (PSN target counts); GTA community heist analysis & mechanics",
-      "steps": [
-        "Open your smartphone and install/launch the Scooter Bros app.",
-        "Locate scooters and mopeds parked outside food delivery joints, beach alleys, and campuses.",
-        "Mount the vehicle and click 'Register to Scooter Bros Fleet' in the app.",
-        "Repeat across 10 unique scooters/motorbikes to claim this final bronze trophy."
-      ]
-    }
-  ]
+  {
+   "id": 2,
+   "name": "Just Like Paradise",
+   "description": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "guide": "Finish the opening mission, Gone Fishing."
+  },
+  {
+   "id": 3,
+   "name": "Paradise Lost",
+   "description": "Complete Chapter 1.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 1."
+  },
+  {
+   "id": 4,
+   "name": "T**s Ass Drug Money",
+   "description": "Complete Chapter 2.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 2."
+  },
+  {
+   "id": 5,
+   "name": "Vice City, Baby!",
+   "description": "Complete Chapter 3.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 3."
+  },
+  {
+   "id": 6,
+   "name": "Top Of The World, Ma",
+   "description": "Complete Chapter 4.",
+   "grade": "bronze",
+   "guide": "Finish Chapter 4."
+  },
+  {
+   "id": 7,
+   "name": "You Gotta Know When to Get Off",
+   "description": "Complete the final mission.",
+   "grade": "gold",
+   "guide": "Finish the final mission (gold)."
+  },
+  {
+   "id": 8,
+   "name": "Trust",
+   "description": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "guide": "Finish the mission Breakfast Run."
+  },
+  {
+   "id": 9,
+   "name": "Break the Bank",
+   "description": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "guide": "Finish the mission The Cartel Heist."
+  },
+  {
+   "id": 10,
+   "name": "Family Matters",
+   "description": "Complete Child's Play.",
+   "grade": "bronze",
+   "guide": "Finish the mission Child's Play."
+  },
+  {
+   "id": 11,
+   "name": "DWNFALL",
+   "description": "Complete Headliners.",
+   "grade": "bronze",
+   "guide": "Finish the mission Headliners."
+  },
+  {
+   "id": 12,
+   "name": "Hi-Jacked",
+   "description": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "guide": "Finish the mission VCIA Takedown."
+  },
+  {
+   "id": 13,
+   "name": "Snow Storm",
+   "description": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "guide": "Finish the mission Operation Savage Glory."
+  },
+  {
+   "id": 14,
+   "name": "A Long Road",
+   "description": "Attain 100% Completion.",
+   "grade": "gold",
+   "guide": "Reach 100% completion (gold)."
+  },
+  {
+   "id": 15,
+   "name": "Cunning Stunts",
+   "description": "Complete 250 Stunts.",
+   "grade": "silver",
+   "guide": "Pull off 250 stunts (silver)."
+  },
+  {
+   "id": 16,
+   "name": "Master of None",
+   "description": "Try each type of activity once.",
+   "grade": "bronze",
+   "guide": "Try all 9 activity types once."
+  },
+  {
+   "id": 17,
+   "name": "The Shootist",
+   "description": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "guide": "Gold all 42 Shooting Range challenges (silver)."
+  },
+  {
+   "id": 18,
+   "name": "Top Fun",
+   "description": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "guide": "Win a Top Fun drone race at all 14 locations."
+  },
+  {
+   "id": 19,
+   "name": "Earn Cash, Not Kudos",
+   "description": "Win 20 different races.",
+   "grade": "bronze",
+   "guide": "Win 20 different races."
+  },
+  {
+   "id": 20,
+   "name": "Baited My Tackle",
+   "description": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "guide": "Beat Cal in a fishing challenge."
+  },
+  {
+   "id": 21,
+   "name": "Stick Fiddler",
+   "description": "Complete an arcade game.",
+   "grade": "bronze",
+   "guide": "Finish one arcade game."
+  },
+  {
+   "id": 22,
+   "name": "Road to Rehabilitation",
+   "description": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "guide": "Finish Andy's last mission."
+  },
+  {
+   "id": 23,
+   "name": "This Was No Boat Accident",
+   "description": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "guide": "Finish Kenton's last mission."
+  },
+  {
+   "id": 24,
+   "name": "The Lone Rider",
+   "description": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "guide": "Finish Billy's last mission."
+  },
+  {
+   "id": 25,
+   "name": "Strangers & Freaks",
+   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "guide": "Finish 8 stranger strands (silver)."
+  },
+  {
+   "id": 26,
+   "name": "Supply & Demand",
+   "description": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "guide": "Finish Randy's last mission."
+  },
+  {
+   "id": 27,
+   "name": "Spin On This!",
+   "description": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "guide": "Finish Tyrone's last mission."
+  },
+  {
+   "id": 28,
+   "name": "Positive Mental Attitude",
+   "description": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "guide": "Meditate at all 18 spots."
+  },
+  {
+   "id": 29,
+   "name": "Fair Game",
+   "description": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "guide": "Hunt the unique animal for Bret."
+  },
+  {
+   "id": 30,
+   "name": "Don't Touch My Deck",
+   "description": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "guide": "Complete 3 collectible card sets (silver)."
+  },
+  {
+   "id": 31,
+   "name": "You WAiNKer!",
+   "description": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "guide": "WAiNK It at 100 locations (silver)."
+  },
+  {
+   "id": 32,
+   "name": "One Last Thing",
+   "description": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "guide": "Finish 50 challenges."
+  },
+  {
+   "id": 33,
+   "name": "Hot Together",
+   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "guide": "Lose a 4-star wanted level with your partner."
+  },
+  {
+   "id": 34,
+   "name": "Retail Therapy",
+   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+  },
+  {
+   "id": 35,
+   "name": "Whip It Good",
+   "description": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "guide": "Discover 100 vehicles."
+  },
+  {
+   "id": 36,
+   "name": "Gunslinger",
+   "description": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "guide": "Down 5 enemies in one Combat Focus."
+  },
+  {
+   "id": 37,
+   "name": "Catch Me If You Can",
+   "description": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "guide": "Leave VCIA in an unscheduled way."
+  },
+  {
+   "id": 38,
+   "name": "Challenging Tank",
+   "description": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "guide": "Deal with Rhinos (tanks)."
+  },
+  {
+   "id": 39,
+   "name": "Sneakthief",
+   "description": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "guide": "Rob a jewelry store without being seen."
+  },
+  {
+   "id": 40,
+   "name": "Maximum Withdrawal",
+   "description": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "guide": "Rob 5 bank vaults and escape (silver)."
+  },
+  {
+   "id": 41,
+   "name": "A Classic Blitz Play",
+   "description": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "guide": "Rob an armored truck and escape."
+  },
+  {
+   "id": 42,
+   "name": "The Goodtime State",
+   "description": "Explore all of Leonida.",
+   "grade": "bronze",
+   "guide": "Explore all 52 areas of Leonida."
+  },
+  {
+   "id": 43,
+   "name": "Pest Control",
+   "description": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "guide": "Rob one illegal operation of each of the 9 gangs."
+  },
+  {
+   "id": 44,
+   "name": "In The Beginning…",
+   "description": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "guide": "Have a cocktail with a view on Ocean Beach."
+  },
+  {
+   "id": 45,
+   "name": "Capital Offense",
+   "description": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "guide": "Smash out of a vehicle showroom in style."
+  },
+  {
+   "id": 46,
+   "name": "Let’s Go Bowling",
+   "description": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "guide": "Play bowling at the Kolt & Associates alley."
+  },
+  {
+   "id": 47,
+   "name": "Personal Best",
+   "description": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "guide": "A partnership moment with mass appeal."
+  },
+  {
+   "id": 48,
+   "name": "Actions Speak Louder",
+   "description": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "guide": "Make choices (PSN tracks a count to 500)."
+  },
+  {
+   "id": 49,
+   "name": "Bad Luck, I Guess",
+   "description": "Second time's the charm.",
+   "grade": "bronze",
+   "guide": "Succeed on a second try."
+  },
+  {
+   "id": 50,
+   "name": "The Truth Is Out There",
+   "description": "What the hell just happened?",
+   "grade": "bronze",
+   "guide": "Witness something strange."
+  },
+  {
+   "id": 51,
+   "name": "Ten Pin",
+   "description": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "guide": "Knock someone down with a melee drive-by."
+  },
+  {
+   "id": 52,
+   "name": "Dime on the Dollar",
+   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "guide": "Launder $250,000 of marked bills."
+  },
+  {
+   "id": 53,
+   "name": "Treat Yo Self",
+   "description": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "guide": "Spend $100,000 in shops."
+  },
+  {
+   "id": 54,
+   "name": "Little Boxes",
+   "description": "Purchase all garage properties.",
+   "grade": "bronze",
+   "guide": "Buy all 8 garage properties."
+  },
+  {
+   "id": 55,
+   "name": "On the Spot",
+   "description": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "guide": "Register 10 vehicles in the Scooter Bros app."
+  }
+ ]
 }
