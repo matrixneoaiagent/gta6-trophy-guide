@@ -1,6 +1,5 @@
 [
-  { "file": "1-checklist.jpg", "path": "/", "description": "Interactive checklist with tracker progress, category filters, and trophy walkthrough modal", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-detail.jpg", "path": "/", "description": "Detailed trophy walkthrough guide with cited sources and missable warning callouts", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-roadmap.jpg", "path": "/", "description": "Platinum Roadmap with 4 sequential stages, efficiency timeline, and completion metrics", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "4-spoiler.jpg", "path": "/", "description": "Story spoiler protection mode shielding unearned campaign trophies", "viewport": { "width": 1280, "height": 800 } }
+  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
 ]
