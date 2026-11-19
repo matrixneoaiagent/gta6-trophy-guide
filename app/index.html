@@ -1,25 +1,422 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA VI TROPHY ATLAS - Leonida Platinum Guide & Progress Tracker</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
-</header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
-<script type="module" src="app.js"></script>
+  <!-- Neon Ambient Accent Background Lines -->
+  <div class="neon-ambient-glow top-cyan" aria-hidden="true"></div>
+  <div class="neon-ambient-glow bottom-magenta" aria-hidden="true"></div>
+
+  <!-- Header Banner & Live Tracker Stats -->
+  <header class="app-header">
+    <div class="header-top">
+      <div class="branding">
+        <div class="brand-badge">PS5 EDITION</div>
+        <h1 class="brand-title">
+          <span class="neon-pink">GTA VI</span> <span class="neon-cyan">TROPHY ATLAS</span>
+        </h1>
+        <p class="brand-subtitle">Leonida Platinum Guide & Offline Interactive Tracker</p>
+      </div>
+
+      <div class="header-actions">
+        <button id="toggle-spoiler-btn" class="action-btn spoiler-btn" type="button" title="Toggle Spoiler Mode on story trophies">
+          <span class="icon" aria-hidden="true">🛡️</span>
+          <span class="btn-text">Spoilers: <strong id="spoiler-status-text">SHIELDED</strong></span>
+        </button>
+        <button id="export-btn" class="action-btn" type="button" title="Export progress to JSON file">
+          <span class="icon" aria-hidden="true">💾</span> Export
+        </button>
+        <label class="action-btn import-label" title="Import progress from JSON file">
+          <span class="icon" aria-hidden="true">📂</span> Import
+          <input id="import-input" type="file" accept="application/json">
+        </label>
+        <button id="reset-btn" class="action-btn btn-danger" type="button" title="Reset all tracked progress">
+          <span class="icon" aria-hidden="true">🔄</span> Reset
+        </button>
+      </div>
+    </div>
+
+    <!-- Live Progress Bar & Grade Counter Cards -->
+    <div class="tracker-dashboard">
+      <div class="overall-progress-card">
+        <div class="progress-info">
+          <div class="progress-title-row">
+            <span class="stat-label">PLATINUM PROGRESS</span>
+            <span class="stat-percentage" id="overall-percentage">0%</span>
+          </div>
+          <div class="progress-counter-text" id="overall-count">0 of 55 Trophies Earned</div>
+        </div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="overall-progress-bar" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <div class="grade-pill-group">
+        <div class="grade-pill grade-platinum" data-grade="platinum">
+          <div class="grade-symbol">💎</div>
+          <div class="grade-meta">
+            <span class="grade-name">Platinum</span>
+            <span class="grade-count" id="count-platinum">0 / 1</span>
+          </div>
+        </div>
+        <div class="grade-pill grade-gold" data-grade="gold">
+          <div class="grade-symbol">🏆</div>
+          <div class="grade-meta">
+            <span class="grade-name">Gold</span>
+            <span class="grade-count" id="count-gold">0 / 2</span>
+          </div>
+        </div>
+        <div class="grade-pill grade-silver" data-grade="silver">
+          <div class="grade-symbol">🥈</div>
+          <div class="grade-meta">
+            <span class="grade-name">Silver</span>
+            <span class="grade-count" id="count-silver">0 / 6</span>
+          </div>
+        </div>
+        <div class="grade-pill grade-bronze" data-grade="bronze">
+          <div class="grade-symbol">🥉</div>
+          <div class="grade-meta">
+            <span class="grade-name">Bronze</span>
+            <span class="grade-count" id="count-bronze">0 / 46</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Primary Navigation Tabs -->
+    <nav class="nav-tabs" aria-label="Main Navigation">
+      <button class="tab-btn active" data-tab="tab-checklist" type="button">
+        <span class="tab-icon">📋</span> Tracker & Checklist
+      </button>
+      <button class="tab-btn" data-tab="tab-roadmap" type="button">
+        <span class="tab-icon">🗺️</span> Platinum Roadmap
+      </button>
+      <button class="tab-btn" data-tab="tab-missables" type="button">
+        <span class="tab-icon">⚠️</span> Missables Watchlist <span class="badge-missable-count" id="nav-missables-badge">4</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-activities" type="button">
+        <span class="tab-icon">🎯</span> 100% Activities Tracker
+      </button>
+      <button class="tab-btn" data-tab="tab-sources" type="button">
+        <span class="tab-icon">📚</span> Sources & Citations
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content Views -->
+  <main class="main-container">
+
+    <!-- VIEW 1: Tracker & Checklist -->
+    <section id="tab-checklist" class="tab-content active">
+      <div class="filter-toolbar">
+        <div class="search-box">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input id="search-input" type="search" placeholder="Search trophy name, description, keywords, or sources..." autocomplete="off">
+          <button id="search-clear-btn" type="button" class="clear-btn" aria-label="Clear search">✕</button>
+        </div>
+
+        <div class="filter-controls">
+          <div class="control-group">
+            <label for="filter-grade">Grade:</label>
+            <select id="filter-grade">
+              <option value="all">All Grades (55)</option>
+              <option value="platinum">Platinum (1)</option>
+              <option value="gold">Gold (2)</option>
+              <option value="silver">Silver (6)</option>
+              <option value="bronze">Bronze (46)</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="filter-kind">Category:</label>
+            <select id="filter-kind">
+              <option value="all">All Categories</option>
+              <option value="story">Story Missions</option>
+              <option value="missable">Missable Only</option>
+              <option value="collectibles">Collectibles</option>
+              <option value="activities">Activities & Mini-games</option>
+              <option value="combat">Combat & Wanted</option>
+              <option value="misc">Miscellaneous</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="filter-status">Status:</label>
+            <select id="filter-status">
+              <option value="all">All Statuses</option>
+              <option value="earned">Earned Only</option>
+              <option value="unearned">Unearned Only</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="sort-order">Sort By:</label>
+            <select id="sort-order">
+              <option value="id-asc">Official ID (1-55)</option>
+              <option value="id-desc">Official ID (55-1)</option>
+              <option value="grade-desc">Grade (Plat → Bronze)</option>
+              <option value="name-asc">Name (A - Z)</option>
+              <option value="roadmap-asc">Roadmap Stage (1 - 4)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="results-meta-bar">
+        <span id="results-count">Showing 55 trophies</span>
+        <div class="quick-view-options">
+          <button id="expand-all-btn" class="text-link-btn" type="button">Expand All Guides</button>
+          <span class="bullet-sep">•</span>
+          <button id="collapse-all-btn" class="text-link-btn" type="button">Collapse All</button>
+        </div>
+      </div>
+
+      <!-- Trophy Cards List Container -->
+      <div id="trophy-list-container" class="trophy-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 2: Platinum Roadmap -->
+    <section id="tab-roadmap" class="tab-content">
+      <div class="roadmap-overview-card">
+        <div class="overview-header">
+          <h2>Leonida Platinum Walkthrough Roadmap</h2>
+          <span class="roadmap-badge-sub">Optimal Path to 100% & Platinum</span>
+        </div>
+        <div class="roadmap-metrics-grid">
+          <div class="metric-box">
+            <span class="metric-label">Estimated Time</span>
+            <span class="metric-val">75 - 90 Hours</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Trophy Difficulty</span>
+            <span class="metric-val">4 / 10 (Moderate)</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Playthroughs Required</span>
+            <span class="metric-val">1 (With Save Management)</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-label">Missable Trophies</span>
+            <span class="metric-val neon-pink">4 Trophies</span>
+          </div>
+        </div>
+        <p class="roadmap-summary-text">
+          Grand Theft Auto VI offers an expansive dual-protagonist journey following Lucia and Jason across Vice City and the wider State of Leonida.
+          No difficulty-specific trophies exist, meaning you can play on standard settings throughout.
+          Follow our 4-stage sequential walkthrough below to conquer the story, safeguard all missables, wrap up strangers, and polish off 100% completion with zero backtracking headaches.
+        </p>
+      </div>
+
+      <div class="roadmap-stages-wrapper">
+        <!-- Stage 1 -->
+        <article class="roadmap-stage-card">
+          <div class="stage-header">
+            <div class="stage-number">STAGE 1</div>
+            <div class="stage-title-wrap">
+              <h3>Main Story Campaign & Fundamentals</h3>
+              <span class="stage-time">Approx. 35 - 40 Hours • Story Missions & Natural Milestones</span>
+            </div>
+          </div>
+          <div class="stage-body">
+            <p>
+              Play through the full campaign covering Gone Fishing, Chapters 1 through 4, and the final mission.
+              Familiarize yourself with dual-character controls, weapon wheel management, and Combat Focus abilities.
+              Enjoy the narrative freely while keeping an eye out for conversational choice prompts and ambient robberies.
+            </p>
+            <div class="stage-trophy-tags" id="stage-1-trophies">
+              <!-- Dynamically populated or linked -->
+            </div>
+            <div class="pro-tip-box">
+              <span class="pro-tip-icon">💡</span>
+              <div>
+                <strong>Pro Strategy:</strong> Always maintain separate manual save slots at the start of each new Chapter (especially entering Chapter 2 and Chapter 4). This guarantees a safety net if a missable task is bypassed.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stage 2 -->
+        <article class="roadmap-stage-card stage-warning-border">
+          <div class="stage-header">
+            <div class="stage-number stage-warning">STAGE 2</div>
+            <div class="stage-title-wrap">
+              <h3>Missables & High-Heat Partner Trophies</h3>
+              <span class="stage-time">Approx. 6 - 8 Hours • Urgent Priority in Chapter 2 & 3</span>
+            </div>
+          </div>
+          <div class="stage-body">
+            <p>
+              Before concluding Chapter 4, knock out the 4 missable trophies that require dual-character coordination or choice telemetry:
+            </p>
+            <ul class="roadmap-checklist">
+              <li><strong>Retail Therapy:</strong> Rob 3 shops back-to-back with your partner without losing your Wanted Level.</li>
+              <li><strong>Sneakthief:</strong> Rob a jewelry store with zero detection (cut alarms, silent glass cutting).</li>
+              <li><strong>Hot Together:</strong> Evade a 4-star Wanted Level while riding with your partner.</li>
+              <li><strong>Actions Speak Louder:</strong> Accumulate 500 decision interactions throughout story and ambient encounters.</li>
+            </ul>
+            <div class="stage-trophy-tags" id="stage-2-trophies">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Stage 3 -->
+        <article class="roadmap-stage-card">
+          <div class="stage-header">
+            <div class="stage-number">STAGE 3</div>
+            <div class="stage-title-wrap">
+              <h3>Strangers & Freaks, Gang Rackets & Mini-games</h3>
+              <span class="stage-time">Approx. 15 - 20 Hours • Side Quests & Leonida Outlaws</span>
+            </div>
+          </div>
+          <div class="stage-body">
+            <p>
+              Complete the 8 eccentric Strangers & Freaks storylines (Andy, Kenton, Billy, Randy, Tyrone, Bret, and others).
+              Participate in all 9 recreation activities (bowling, fishing vs Cal, arcade machine completion, racing circuit wins),
+              and raid illegal operations belonging to all 9 rival Leonida gangs.
+            </p>
+            <div class="stage-trophy-tags" id="stage-3-trophies">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </article>
+
+        <!-- Stage 4 -->
+        <article class="roadmap-stage-card">
+          <div class="stage-header">
+            <div class="stage-number">STAGE 4</div>
+            <div class="stage-title-wrap">
+              <h3>100% Completion & Collectibles Cleanup</h3>
+              <span class="stage-time">Approx. 20 - 25 Hours • Post-Game Free Roam & Platinum Pop</span>
+            </div>
+          </div>
+          <div class="stage-body">
+            <p>
+              Take flight in a helicopter to defog all 52 zones of Leonida. Complete all 250 stunts, achieve Gold in all 42 shooting range drills,
+              win all 14 Top Fun drone races, meditate at all 18 zen spots, photograph 100 WAiNK landmarks, complete 3 card sets (60 cards),
+              and purchase all 8 garages. Once the 100% checklist notification appears, the coveted Platinum <em>Vice Got a Price!</em> unlocks!
+            </p>
+            <div class="stage-trophy-tags" id="stage-4-trophies">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- VIEW 3: Missables Watchlist -->
+    <section id="tab-missables" class="tab-content">
+      <div class="missables-header-card">
+        <div class="alert-icon-large">⚠️</div>
+        <div class="alert-info">
+          <h2>Missable Trophies Watchlist</h2>
+          <p>
+            Grand Theft Auto VI features 4 specific trophies with strict prerequisites regarding partner availability, stealth parameters,
+            or branching conversation tallies. Review each detailed prevention protocol below to ensure you secure them on your primary playthrough.
+          </p>
+        </div>
+      </div>
+
+      <div id="missables-cards-list" class="missables-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 4: 100% Activities Tracker -->
+    <section id="tab-activities" class="tab-content">
+      <div class="activities-header-card">
+        <h2>100% Game Completion Activities Tracker</h2>
+        <p>
+          Leonida tracks extensive auxiliary challenges and side ventures. Use these interactive step and target counters to log your individual progress toward the gold trophy <em>A Long Road</em>.
+        </p>
+      </div>
+
+      <div class="activities-tracker-grid" id="activities-tracker-container">
+        <!-- Interactive tracker cards dynamically rendered -->
+      </div>
+    </section>
+
+    <!-- VIEW 5: Sources & Citations -->
+    <section id="tab-sources" class="tab-content">
+      <div class="sources-card">
+        <h2>Sources, Citations & Research Methodology</h2>
+        <p class="sources-lead">
+          The GTA VI Trophy Atlas is built upon transparent, cross-verified community research and official PlayStation Network telemetry.
+          Every trophy guide, target count, and strategy note is cited directly to its authoritative source.
+        </p>
+
+        <div class="citations-list">
+          <div class="citation-entry">
+            <div class="citation-badge">PRIMARY SOURCE</div>
+            <h3>PlayStation Network (PSN) Official PS5 Trophy Database & Exophase</h3>
+            <p>
+              Official 55 trophy index, exact localized titles, official English descriptions, trophy rarities/grades (1 Platinum, 2 Gold, 6 Silver, 46 Bronze),
+              and PlayStation Network target telemetry counters (e.g. 250 Stunts, 42 Shooting Range challenges, 14 Drone Races, 18 Meditation spots, 100 WAiNK spots, 500 Choices).
+            </p>
+            <div class="citation-meta">Verified November 18, 2026 • PS5 Title ID NPWR31945_00</div>
+          </div>
+
+          <div class="citation-entry">
+            <div class="citation-badge">COMMUNITY SOURCE</div>
+            <h3>PSNProfiles Community Trophy Guide & Roadmaps</h3>
+            <p>
+              Comprehensive trophy difficulty rating (4/10), estimated completion timeline (75-90 hours), missable classification analysis,
+              dual-protagonist partner synchronization requirements, and optimal 4-stage roadmap structure.
+            </p>
+            <div class="citation-meta">Authored by Leonida Outlaw Syndicate & Veteran GTA Trophy Hunters</div>
+          </div>
+
+          <div class="citation-entry">
+            <div class="citation-badge">MECHANICS SOURCE</div>
+            <h3>Rockstar Universe & GTA Community Heist Analytics</h3>
+            <p>
+              Mission structure validation, dynamic robbery mechanics (retail stores, jewelry store stealth triggers, bank vault infiltration steps),
+              marked bills laundering percentages, and vehicle classification registries.
+            </p>
+            <div class="citation-meta">Documented across Vice City Cartel mappings and gameplay telemetry archives</div>
+          </div>
+        </div>
+
+        <div class="sources-footer">
+          <p>
+            <em>Offline Web Application Notice:</em> This reference guide operates 100% locally with zero external network tracking or remote assets.
+            All visual styling is original Vice City-inspired synthwave design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Trophy Detail Drawer / Modal -->
+  <div id="trophy-modal-backdrop" class="modal-backdrop hidden" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-trophy-name">
+      <button id="modal-close-btn" class="modal-close-btn" type="button" aria-label="Close dialog">✕</button>
+
+      <div class="modal-content" id="modal-content-body">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-content">
+      <p class="footer-title">GTA VI TROPHY ATLAS • VICE CITY / LEONIDA COMPANION</p>
+      <p class="footer-sub">Autonomous Static Web Application • Built for make.fun bounty 'gta6-trophy-guide-01'</p>
+      <p class="footer-offline-badge">⚡ 100% Offline Static Storage • LocalStorage Automated Persistence</p>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
 </body>
 </html>
